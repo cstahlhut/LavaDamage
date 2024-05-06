@@ -273,6 +273,7 @@
       <PackageFiles Include="$(ProjectDir)\Thunderstore\manifest.json" Condition="Exists('$(ProjectDir)\Thunderstore\manifest.json')"/>
       <PackageFiles Include="$(ProjectDir)\Thunderstore\README.md" Condition="Exists('$(ProjectDir)\Thunderstore\README.md')"/>
       <PackageFiles Include="$(ProjectDir)\Thunderstore\LICENCE.txt" Condition="Exists('$(ProjectDir)\Thunderstore\LICENCE.txt')"/>
+      <PackageFiles Include="$(ProjectDir)\Thunderstore\icon.png" Condition="Exists('$(ProjectDir)\Thunderstore\icon.png')"/>
     </ItemGroup>
     <ItemGroup>
       <AllFiles Include="$(TargetDir)**\*.*" Exclude="$(TargetDir)**\*.pdb" />
